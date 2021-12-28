@@ -1006,7 +1006,7 @@ header.major > :last-child {
   border-bottom: solid 3px #00C9C5;
   display: inline-block;
   margin: 0 0 2em 0;
-  padding: 0 0.75em 0.5em 0; }
+  padding: 5em 0.75em 0.5em 0; }
 
 header.main > :last-child {
   margin: 0 0 1em 0; }
