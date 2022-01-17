@@ -12,15 +12,14 @@ I used HTML5, CSS3, Javascript ES6, and SASS to create this portfolio website.
 
 This portfolio showcases my projects for 2021. I created a few web applications as well as designed and built websites using Figma and website builders for clients.
 
-My 2021 portfolio projects include:
+My 2021 portfolio projects includes some of my favorite projects I worked on:
 
-- [A contact lens tracking app]()
-- [A Pomodoro Timer]()
-- [A sidemount calculator]()
-- [A word of the day app]()
-- [A scuba website]()
-- [Another scuba website]()
-- [A website for a pizza restaurant]()
+- [A contact lens tracking fullstack app ](https://github.com/JohnMichaelD/contact-Solution)
+- [A Pomodoro Timer to keep myself on track](https://github.com/JohnMichaelD/tomato-timer)
+- [A sidemount calculator that uses Reactjs](https://github.com/JohnMichaelD/Sidemount-Gas-Calculator)
+- [A word of the day app that uses a web scraper](https://github.com/JohnMichaelD/word-of-the-day)
+- [A website for a dive shop in San Francisco](https://www.bambooreef.com/)
+- [A website for a dive shop in Idaho Falls](https://www.inlandscubainc.com/)
 
 #### What I Learned:
 
