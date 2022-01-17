@@ -1,9 +1,11 @@
-# My Portfolio for 2021
+# My Portfolio for 2022
 
-## How It's Made:
+![Screenshot](images/screenshot.png)
 
-## Optimizations:
+### How It's Made:
 
-## What I Learned:
+### Optimizations:
 
-## Continuing Development
+### What I Learned:
+
+### Continuing Development:
