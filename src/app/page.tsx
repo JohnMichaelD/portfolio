@@ -20,7 +20,7 @@ const projects = [
     title: "Switchboard",
     tag: "Widget",
     description: "Reverse-engineered switchboard widget that illuminates a hidden message.",
-    display: "Switchboard",
+    display: "/greenTomato.svg",
     link: "https://switchboard-widget.vercel.app/"
   },
   {
