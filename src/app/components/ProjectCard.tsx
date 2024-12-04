@@ -10,9 +10,10 @@ type ProjectCardProps = {
     description: string;
     display: string | 'AnimatedLoader' | 'Switchboard';
     link: string;
+    status?: 'development' | 'live' | 'coming-soon'; 
   }
   
-  const ProjectCard = ({ title, tag, description, display, link }: ProjectCardProps) => {
+  const ProjectCard = ({ title, tag, description, display, link, status = 'live'}: ProjectCardProps) => {
     const renderDisplay = () => {
         switch(display) {
           case 'AnimatedLoader':
@@ -24,25 +25,47 @@ type ProjectCardProps = {
         }
       };
 
+    const getButtonStyles = () => {
+        switch(status) {
+            case 'development':
+                return "bg-amber-500/20 text-amber-500 rounded-full px-4 py-1 text-sm max-w-max";
+            case 'coming-soon':
+                return "bg-blue-500/20 text-blue-500 rounded-full px-4 py-1 text-sm max-w-max";
+            default:
+                return "bg-[#1B1B1B] text-white rounded-full px-4 py-1 text-sm max-w-max";
+        }
+    };
+
+    const getButtonText = () => {
+        switch(status) {
+            case 'development':
+                return "In Development";
+            case 'coming-soon':
+                return "Coming Soon";
+            default:
+                return "View";
+        }
+    };
+
     return (
-      <div className="flex flex-col sm:flex-row border border-[#303030] bg-[#303030] rounded-3xl w-full p-5">
+      <div className="flex flex-col sm:flex-row border border-[#303030] bg-[#303030] rounded-3xl w-full p-5 gap-4">
         <div className="flex flex-col justify-between gap-4">
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-4">
               <h3 className="font-semibold">{title}</h3>
-              <span className="text-xs bg-blue-200 text-black rounded px-2 p-1 min-w-max">{tag}</span>
+              <span className="text-xs bg-blue-100 text-blue-700 rounded px-2 p-1 min-w-max">{tag}</span>
             </div>
             <p className="text-sm">{description}</p>
           </div>
           <button 
-            onClick={() => window.location.href = link}
-            className="bg-[#1B1B1B] text-white rounded-full px-4 py-1 text-sm max-w-max"
+              onClick={() => status === 'live' ? window.location.href = link : null}
+              className={getButtonStyles()}
           >
-            View
+              {getButtonText()}
           </button>
         </div>
         
-        <div className="flex items-center justify-center w-40">
+        <div className="flex items-center justify-center w-full sm:w-40">
             {renderDisplay()}
         </div>
       </div>
