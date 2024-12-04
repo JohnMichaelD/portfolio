@@ -16,7 +16,7 @@ const SocialLinks = () => {
         rel="noopener noreferrer">
         <FaSquareGithub alt="Link to Github" />
       </a>
-      <a href="mailto:john.darrin1@gmail.com">
+      <a href="mailto:#">
         <IoMdMail alt="link to my email" />
       </a>
     </span>
