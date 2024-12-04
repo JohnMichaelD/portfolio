@@ -10,7 +10,7 @@ type ProjectCardProps = {
     description: string;
     display: string | 'AnimatedLoader' | 'Switchboard';
     link: string;
-    status?: 'development' | 'live' | 'coming-soon'; 
+    status: string | 'development' | 'live' | 'coming-soon'; 
   }
   
   const ProjectCard = ({ title, tag, description, display, link, status = 'live'}: ProjectCardProps) => {
