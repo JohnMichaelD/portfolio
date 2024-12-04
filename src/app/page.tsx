@@ -25,8 +25,8 @@ const projects = [
   },
   {
     title: "Gear Care",
-    tag: "Widget",
-    description: "Reverse-engineered switchboard widget that illuminates a hidden message.",
+    tag: "Mobile App",
+    description: "An app to help users log and track their gear to prolong life, and maintain integrity.",
     display: "/greenTomato.svg",
     link: "/"
   }
