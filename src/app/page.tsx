@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import SocialLinks from "./components/SocialLinks";
 import ProjectCard from "./components/ProjectCard";
 
@@ -23,6 +22,13 @@ const projects = [
     description: "Reverse-engineered switchboard widget that illuminates a hidden message.",
     display: "Switchboard",
     link: "https://switchboard-widget.vercel.app/"
+  },
+  {
+    title: "Gear Care",
+    tag: "Widget",
+    description: "Reverse-engineered switchboard widget that illuminates a hidden message.",
+    display: "/",
+    link: "/"
   }
 ];
 

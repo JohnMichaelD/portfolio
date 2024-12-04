@@ -8,16 +8,16 @@ const SocialLinks = () => {
         href="https://www.linkedin.com/in/john-darrin/"
         target="_blank"
         rel="noopener noreferrer">
-        <FaLinkedin alt="Link to Linkedin" />
+        <FaLinkedin />
       </a>
       <a 
         href="https://github.com/JohnMichaelD"
         target="_blank"
         rel="noopener noreferrer">
-        <FaSquareGithub alt="Link to Github" />
+        <FaSquareGithub />
       </a>
       <a href="mailto:john.darrin1@gmail.com">
-        <IoMdMail alt="link to my email" />
+        <IoMdMail />
       </a>
     </span>
   );

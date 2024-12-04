@@ -8,7 +8,7 @@ const AnimatedLoader = () => {
   const [isSpinning, setIsSpinning] = useState(false);
 
   useEffect(() => {
-    let timeouts: NodeJS.Timeout[] = [];
+    const timeouts: NodeJS.Timeout[] = [];
 
     const animate = async () => {
       setActiveIndices(new Set());

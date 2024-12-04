@@ -1,4 +1,6 @@
 'use client'
+
+import Image from 'next/image';
 import AnimatedLoader from './AnimatedLoader';
 
 
@@ -18,7 +20,7 @@ type ProjectCardProps = {
           case 'Switchboard':
             return <video src="switchboard.mov" autoPlay loop></video> 
           default:
-            return <img src={display} alt={`${title} preview`} />;
+            return <Image src={display} alt={`${title} preview`} />;
         }
       };
 
