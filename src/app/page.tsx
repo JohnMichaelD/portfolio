@@ -27,7 +27,7 @@ const projects = [
     title: "Gear Care",
     tag: "Widget",
     description: "Reverse-engineered switchboard widget that illuminates a hidden message.",
-    display: "/",
+    display: "/greenTomato.svg",
     link: "/"
   }
 ];

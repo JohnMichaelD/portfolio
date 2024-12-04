@@ -20,7 +20,7 @@ type ProjectCardProps = {
           case 'Switchboard':
             return <video src="switchboard.mov" autoPlay loop></video> 
           default:
-            return <Image src={display} alt={`${title} preview`} />;
+            return <Image src={display} alt={`${title} preview`} width="300" height="300" />;
         }
       };
 
