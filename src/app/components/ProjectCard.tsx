@@ -41,9 +41,9 @@ type ProjectCardProps = {
             case 'development':
                 return "In Development";
             case 'coming-soon':
-                return "Coming Soon";
+                return "<Coming Soon />";
             default:
-                return "View";
+                return "<Live />";
         }
     };
 
@@ -53,7 +53,7 @@ type ProjectCardProps = {
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-4">
               <h3 className="font-semibold">{title}</h3>
-              <span className="text-xs bg-blue-100 text-blue-700 rounded px-2 p-1 min-w-max">{tag}</span>
+              <span className="text-xs bg-blue-100 text-blue-600 rounded px-2 p-1 min-w-max">{tag}</span>
             </div>
             <p className="text-sm">{description}</p>
           </div>
@@ -65,7 +65,7 @@ type ProjectCardProps = {
           </button>
         </div>
         
-        <div className="flex items-center justify-center w-full sm:w-40">
+        <div className="flex items-center justify-center max-w-40 min-w-40">
             {renderDisplay()}
         </div>
       </div>

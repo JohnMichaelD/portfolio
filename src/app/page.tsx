@@ -3,18 +3,18 @@ import ProjectCard from "./components/ProjectCard";
 
 const projects = [
   {
-    title: "Pomodoro Pro",
+    title: "Pomodoro Buddy",
     tag: "Web App",
-    description: "Pomodoro is a productivity tool to help folks stay focused in short time bursts. Built in React, Typescript.",
-    display: "/greenTomato.svg",
-    link: "/",
-    status: 'development'
+    description: "I use the pomodoro technique daily to keep a productive flow, but was tired of always being shown ads. This weekend project is my fun take on this classic tool.",
+    display: "/tomato.png",
+    link: "https://pomodoro-buddy.vercel.app/",
+    status: 'live'
 
   },
   {
     title: "Company Loading Logo",
     tag: "SVG Animation",
-    description: "Designed and built this loading animation to use the company's logo.",
+    description: "Across this web app, simple, boring loaders were used. Taking the company's logo, I wanted to design and implement a fancy loader for primary screens.",
     display: "AnimatedLoader",
     link: "/",
     status: 'live'
@@ -23,7 +23,7 @@ const projects = [
     title: "Switchboard",
     tag: "Widget",
     description: "Reverse-engineered switchboard widget that illuminates a hidden message.",
-    display: "/greenTomato.svg",
+    display: "/SwitchboardMock.png",
     link: "https://switchboard-widget.vercel.app/",
     status: 'live'
   },
@@ -31,18 +31,18 @@ const projects = [
     title: "Gear Care",
     tag: "Mobile App",
     description: "An app to help users log and track their gear to prolong life, and maintain integrity.",
-    display: "/greenTomato.svg",
+    display: "/Jacket.png",
     link: "/",
     status: 'coming-soon'
   },
-  {
-    title: "Sidemount Calc",
-    tag: "Web App",
-    description: "An app to help sidemount divers learn to count thirds.",
-    display: "/greenTomato.svg",
-    link: "https://www.sidemountcalc.com/",
-    status: 'live'
-  }
+  // {
+  //   title: "Sidemount Calc",
+  //   tag: "Web App",
+  //   description: "An app to help sidemount divers learn to count thirds.",
+  //   display: "/greenTomato.svg",
+  //   link: "https://www.sidemountcalc.com/",
+  //   status: 'live'
+  // }
 ];
 
 
